@@ -106,9 +106,9 @@ class HeEnEventCal{
 			$result = $statement->fetch(PDO::FETCH_BOTH);
 			if (!empty($result)) { // if event exists for given date
 				if($this->eventText){
-					echo "<a href='/pages/workshops.php?id=$result[0]' class='cal_link'><div style='width:100%;height:100%'>$result[1]</div></a> ";
+					echo "<a href='$this->linkURL.$result[0]' class='cal_link'><div style='width:100%;height:100%'>$result[1]</div></a> ";
 				}else{
-					echo "<a href='/pages/workshops.php?id=$result[0]' class='cal_link'><div style='width:100%;height:100%'>&nbsp;</div></a> ";
+					echo "<a href='$this->linkURL.$result[0]' class='cal_link'><div style='width:100%;height:100%'>&nbsp;</div></a> ";
 				}
 			}
 			echo "</div></td>";
