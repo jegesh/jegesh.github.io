@@ -1,0 +1,119 @@
+body{
+	text-align:center;
+	background:#DBDB0F;
+}
+div.large{
+	margin-bottom: 25px;
+}
+#main{
+width:1050px;
+margin: auto;
+}
+
+.jDate{
+	direction:rtl;
+	
+}
+/* sidebar calendar */
+
+#left{
+float:left;
+width:250px;
+}
+#sidebar{
+	margin-top: 90px;
+}
+#sidebar div.event{
+	height: 25px;
+	
+}
+
+#sidebar .secDate{
+	float:left;
+	font-size:.5em;
+	margin-top: 2px;
+}
+#sidebar .jDate{
+	float:right;
+	font-size:.65em;
+}
+
+#sidebar .hebEngCal{
+	width:150px;
+	table-layout: fixed;
+	direction:rtl;
+}
+#sidebar .hebEngCal td{
+	
+}
+#sidebar .hebEngCal th{
+	width:26px
+}
+#sidebar .hebEngCal caption{
+	border:2px solid black;
+	border-bottom: none;
+}
+#sidebar td.color1{
+	background-color: #EBE4DF;
+}
+#sidebar td.color2{
+	background-color: #D0CBD1;
+}
+#sidebar td.color3{
+	background-color: #B4B1B5;
+}
+#sidebar .cal_link{
+	background-color: blue;
+	text-decoration: none;
+	margin: auto;
+	margin-top: 55%;
+	
+}
+	/* large calendar */
+	#large .secDate{
+        	float:left;
+        	font-size:1.5em;
+        	margin-top: 2px;
+        }
+	#large .jDate{
+		float:right;
+		font-size:1.65em;
+	}
+	#large div.event{
+		height:85px;
+		text-align: center;
+		overflow:hidden;
+		padding:5px;
+	}
+	#large div.dates{
+		
+		padding: 5px;
+		
+	}
+	#large .hebEngCal{
+		width:100%;
+		table-layout: fixed;
+	}
+	#large	 td{
+		
+	}
+	#large .hebEngCal caption{
+		font-size:1.5em;
+	}
+	#large .hebEngCal caption{
+		border:5px solid black;
+		border-bottom: none;
+	}
+	#large td.color1{
+		background-color: #EBE4DF;
+	}
+	#large td.color2{
+		background-color: #D0CBD1;
+	}
+	#large td.color3{
+		background-color: #B4B1B5;
+	}
+	#large .cal_link{
+		text-decoration: none;
+		
+	}
