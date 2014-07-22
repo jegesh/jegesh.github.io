@@ -12,6 +12,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d8f5', end
 background-size:cover;
 background-repeat:none;
 }
+h2{
+  margin-left:15%;
+}
 div#main{
   width: 900px;
   margin:auto;
