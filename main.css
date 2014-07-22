@@ -12,3 +12,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d8f5', end
 background-size:cover;
 background-repeat:none;
 }
+div#main{
+  width: 900px;
+}
+div#left{
+  width:440px;
+  float:left;
+}
+div#right{
+  width:440px;
+  float:right;
+}
