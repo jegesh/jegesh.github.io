@@ -14,12 +14,15 @@ background-repeat:none;
 }
 div#main{
   width: 900px;
+  margin:auto;
 }
 div#left{
+  text-align:left;
   width:440px;
   float:left;
 }
 div#right{
+  text-align:left;
   width:440px;
   float:right;
 }
